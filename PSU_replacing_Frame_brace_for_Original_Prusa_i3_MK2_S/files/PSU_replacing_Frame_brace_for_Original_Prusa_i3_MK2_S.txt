@@ -1,0 +1,40 @@
+UPDATE 06-07/05/2019: Reduced the height of the screw holes -2.5mm, added Version for MK2, added textfile.
+
+Explanation:
+I got messages that the frame brace doesn’t fit on some printers. And there where right!
+I edited the part with this CAD Model from the Prusa MK2 (https://grabcad.com/library/prusa-i3-mk2-2). But many parts where updated for the MK2S as well as the PSU_Y-Part. Which is the bottom attachment point of the frame brace.
+
+I mounted the brace with M3 bolts to the frame rather then M4 screws because I had no M4 nuts. Through that the brace fitted quite well on my printer and I didn’t notice that is was slightly bend…
+One the MK2 the crucial height of the part is 15mm. The height of the updated version for the MK2S is 17.5mm. So, the screw holes for the frame are misaligned about 2.5mm.
+
+Importan Info:
+I corrected the error; the new holes are “drilled” 2.5mm lower on the updated frame brace.
+I changed the name of the parts as follow:
+
+    i3mk2_S_fb = use for MK2-S Printer, like original Version vom Mikola for the Mk3 but changed holes
+    i3mk2_S_fb_cutout = use for MK2-S Printer, part has a cutout
+    i3mk2_fb (has to be tested) = use for MK2 Printer
+    i3mk2_fb_cutout (has to be tested) = use for MK2 Printer, part has a cutout
+
+NOTE: If you have updated your MK2 to an S the PSU_Y_Part should be the old one (for comparison check the pictures or measure the height 15mm MK2 / 17.5mm MK2S)
+>>> I am waiting for the approval from two volunteers then part will be no longer “Work in Progress”.
+Also I would like to find someone who wants to test the "old design" = i3mk2_fb on the MK2 to be absoulte sure it really fits!
+
+ATTACHMENT: You need the original PSU Screws and two M4 Nuts to attach the mount to the printer.
+
+ 
+
+General Info:
+
+Remixed this part from mikolaszuza PSU Frame brace.
+The release of the video and the brace came at the perfect time for me, while I was thinking about some details on my own LACK enclosure setup.
+https://www.youtube.com/watch?v=oS7ZtBNh2hE
+https://www.thingiverse.com/thing:2859884
+https://www.prusaprinters.org/cheap-simple-3d-printer-enclosure
+There are two versions:
+1:1 design only with replaced mounting points
+ the other with an cut-out in the midsection, for better looking and more vertical shells to get a little bit stiffer also its safes some filament.
+
+
+I am not totally satisfied with the mount because on the MK2S the lower PSU mounting point is much smaller then the aluminium extrusion bar on the MK3 frame. But without spool holder on top of the printer it should be fine. When you push against the frame the lower horizontal part of the braket bents a little bit.
+PS: nice video I found about "infill & shells setup an strength comparison" https://www.youtube.com/watch?v=AmEaNAwFSfI
