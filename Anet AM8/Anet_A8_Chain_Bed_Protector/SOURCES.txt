@@ -1,0 +1,4 @@
+Sources for Anet A8 Chain Bed Protector
+
+Anet A6 Table nut and cover spring (http://www.thingiverse.com/thing:2044042)
+Anet A8 Y Axis Cable Chain v2 (http://www.thingiverse.com/thing:1915486)
